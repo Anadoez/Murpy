@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*Desarrollado por: Diana*/
+/* ******Estilos generales***** */
+body{
+    font-family: sans-serif;
+    background-color:#CCCCCC ;
+}
+h1{
+    margin:1%;
+    font-size:400%;
+    text-align:center;
+}
+p{
+    padding:2%;
+    font-size:190%;
+}
+p:hover{
+    z-index: 2;
+}
+/* ****Clases del main********** */
+.m1{
+    background-color:#FFD480 ;
+    border:3px solid #7D6536 ;
+    left:10%;
+    top:10%;
+    width:75%;
+    height:7%;
+    text-align: center;
+    position: absolute;
+}
+.m2{
+    background-color:#80FF80 ;
+    border:5px solid #367D36 ;
+    position:absolute;
+    z-index:1;
+    top:40%;
+    left:30%;
+    width:35%;
+    height:25%;
+    text-align: center;
+
+}
+.m3{
+    background-color:#FFFF80 ;
+    border:5px solid #D6D643 ;
+    position:absolute;
+    top:27%;
+    left:5%;
+    width:35%;
+    height:20%;
+    text-align: left;
+}
+.m4{
+    background-color:#CCFFFF ;
+    border:5px solid #9FC6C6 ;
+    position:absolute;
+    top:27%;
+    right:5%;
+    width:35%;
+    height:20%;
+    text-align: right;
+}
+.m5{
+    background-color:#FFE5FF ;
+    border:5px solid #BEA7BE ;
+    position:absolute;
+    bottom:5%;
+    left:5%;
+    width:35%;
+    height:20%;
+    text-align: left;
+}
+.m6{
+    background-color:#FFB3B3 ;
+    border:5px solid #846262 ;
+    position:absolute;
+    bottom:5%;
+    right:5%;
+    width:35%;
+    height:20%;
+    text-align: right;
+}
